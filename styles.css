@@ -8,7 +8,7 @@
     width: 80px;
     height: auto;
     border-radius: 50%;
-    align-items: center;
+    justify-content: center;
 }
 
 nav{
@@ -45,11 +45,62 @@ button{
 }
 
 .interactiveBox{
-    width: 100px;
-    height: 100px;
+    width: 200px;
+    height: 200px;
+    position: relative;
+    top: 20px;
+    left: 10%;
     background-color: lightblue;
     margin: 20px;
+    padding: 20px;
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
+}
+
+.subTitleH3{
+    position: absolute;
+    top: 10px;
+    left: 20px;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.para1{
+    position: absolute;
+    top: 100px;
+    left: 20px;
+    font-size: 16px;
+}
+
+.button1{
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+}
+
+.para2{
+    position: absolute;
+    top: 70px;
+    left: 20px;
+    font-size: 16px;
+}
+
+.button2{
+    position: absolute;
+    bottom: 10px;
+    left: 20px;
+}
+.para3{
+    position: absolute;
+    top: 100px;
+    left: 20px;
+    font-size: 16px;
+}
+
+.button3{
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
 }
