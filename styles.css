@@ -19,6 +19,21 @@ nav{
     justify-content: space-around;
 }
 
-section1{
+button{
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.section1{
+    background-image: url("./images/sheepInSnow.jpg");
+}
+.section2{
+    background-image: url("./images/sheepInSnow.jpg");
+}
+.section3{
     background-image: url("./images/sheepInSnow.jpg");
 }
