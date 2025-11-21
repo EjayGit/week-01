@@ -4,3 +4,12 @@
     box-sizing: border-box;
 }
 
+#headerLogo{
+    width: 80px;
+    height: auto;
+    border-radius: 50%;
+}
+
+section1{
+    background-image: url("./images/sheepInSnow.jpg");
+}
